@@ -128,7 +128,7 @@ public class JeopardyMoveHandler extends DefaultHandler {
         playerElement.setAttribute("ref",playerName);
         //Set asked element and attribute
         Element askedElement = jeopardyDoc.createElement("asked");
-        askedElement.setAttribute("ref",question);
+        askedElement.setAttribute("question",question);
 
         //For each answer given, set a givenanswer element with attribute player and answer text
         for(String s : answers){
