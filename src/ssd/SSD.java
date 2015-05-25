@@ -9,6 +9,7 @@ import javax.xml.XMLConstants;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Result;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -71,7 +72,9 @@ public class SSD {
         //Parse the move document
         parser.parse(movePath);
         //Get document output
-        handler.getDocument();
+        Transformer transform = TransformerFactory.newInstance().newTransformer();
+        Result output = new StreamResult(new File(outputPath));
+        transform.transform(new DOMSource(handler.getDocument()),output);
 
 
     }
