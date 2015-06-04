@@ -12,7 +12,7 @@
 
     <!-- SSD -->
     <property name="inputpath" value="${resources.dir}/jeopardy.xml"/>
-    <property name="outputpath" value="resources/jeopardy-out.xml"/>
+    <property name="outputpath" value="output/jeopardy-out.xml"/>
 	<property name="movedoc" value="${resources.dir}/jeopardy-move.xml" />
     
 	<!-- XQuery (a) -->

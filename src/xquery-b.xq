@@ -9,7 +9,6 @@
                 if($answers>0)
                 then <correct player="{$player/@ref}">{$answers}</correct>
                 else ()
-
         }
         </session>
     }</stats>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><!--<!DOCTYPE jeopardy SYSTEM "jeopardy.dtd">--><jeopardy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jeopardy.xsd">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!--<!DOCTYPE jeopardy SYSTEM "jeopardy.dtd">--><jeopardy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../resources/jeopardy.xsd">
   <overview>
     This <a href="http://dbai.tuwien.ac.at/education/dbs/">Jeopardy</a> quiz is
     really

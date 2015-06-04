@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stats>
+    <session id="af21de5">
+        <correct player="Bart">1</correct>
+        <correct player="Lisa">1</correct>
+    </session>
+    <session id="abc">
+        <correct player="Lisa">2</correct>
+    </session>
+</stats>
