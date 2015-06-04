@@ -143,7 +143,6 @@ public class JeopardyMoveHandler extends DefaultHandler {
         gameEle.appendChild(askedElement);
         //Set new generated game element under games
         gamesNode.appendChild(gameEle);
-
     }
 
     @Override
